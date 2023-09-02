@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UF-8">
+        <meta name="viewport" content="width=device-width, initial scale=1.0">
+        <title>Kelly McConnell</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&family=Montserrat&family=Poppins:wght@400;700&family=Quicksand:wght@400;600;700&family=Sacramento&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="./styles.css">
+    </head>
+
+
+    <body>
+        
+  
+        <section class="top-nav">
+            <div class="logo-name">
+                <!--give a pulse when hovered-->
+                <p class="kelly-logo stroke-single stroke-double">Kelly</p>
+            </div>
+            <!--The input is the invisible checkbox that goes ontop of the menu button container. The checkbox will be invisible. The menu-container will contain the menu-button-->
+            <div class="icon-container">
+                <input id="menu-toggle" type="checkbox">
+                <label class="menu-button-container" for="menu-toggle">
+                    <!--This will be the hamburger lines-->
+                    <div class="menu-button"></div>
+                </label>
+                <ul class="menu">
+                    <li ><a href="#home-page-anchor">Home</a></li>
+                    <li ><a href="#about-me-anchor">About Me</a></li>
+                    <li ><a href="#projects-anchor">Projects</a></li>
+                    <li ><a href="#contact-anchor">Contact</a></li>
+                    
+                </ul>
+                <div class="map-pin-button-container">
+                    <div class="map-pin-button">
+                        <a href="https://goo.gl/maps/qWHdmqVh38SCgUDS8" target="_blank" rel="noopener"><img class="map-pin-icon" src="images/icons8-visit-50.png" alt="map-pin-icon"></a>
+                    </div>
+                </div>
+                <div class="contact-us-container">
+                    <div class="contact-us-button">
+                        <a href="tel:555-555-5555" target="_blank" rel="noopener"><img class="phone-icon" src="./images/icons8-phone-call-50.png" alt="phone-icon"></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+           
+        <a id="home-page-anchor"></a><section class="home-hero"></a>
+            <div class="inner-hero-container">
+                <!--give a glitch effect-->
+                <div class="hero-heading-1">
+                    <div class="h1-hero-background">
+                        <h1 class="h1-hero"><span aria-hidden="true">Hi,<br>I'm Kelly!</span>Hi,<br>I'm Kelly!<span aria-hidden="true">Hi,<br>I'm Kelly!</span></h1>
+                    </div>    
+                </div>
+                <div class="hero-picture">
+                    <div class="img-holder">
+                        <img class="hero-img" src="./images/Kelly-modified.png" alt="picture-of-kelly">
+                    </div>
+                </div>
+                <div class="hero-heading-2"> 
+                    <h2 class="h2-hero">Welcome to my website!</h2>
+                </div>
+                <div class="hero-call-button">
+                    <a href="#projects" class="hero-btn">
+                        <h3 class="hero-btn-heading">Projects</h3></a>
+                </div>  
+            </div>
+
+        </section>
+        <!--Background of this section is going to be the blue color, black text maybe white text too.-->
+        <a id="about-me-anchor"></a><section id="about-section"></a>
+            <div class="about-section-container">
+                <div class="about-me-container">
+                    <h2 class="visually-hidden">About Me</h2>
+                    <span aria-hidden="true"class="span" style="--i:1">A</span>
+                    <span aria-hidden="true"class="span" style="--i:2">b</span>
+                    <span aria-hidden="true"class="span" style="--i:3">o</span>
+                    <span aria-hidden="true"class="span" style="--i:4">u</span>
+                    <span aria-hidden="true"class="span-t" style="--i:5">t</span>
+                    <span aria-hidden="true"class="span" style="--i:6">M</span>
+                    <span aria-hidden="true"class="span" style="--i:7">e</span>
+
+                    <!--<a id="about-me-anchor"><h2 class="about-me-h2">About Me</h2></a>
+                     <!--This will be a flexbox, maybe words appear when you hover over by day by night, have it be a card with a hover effect...maybe have a white moon image and a white sun outline image-->
+                </div>
+            </div>  
+            <div class="about-me-intro-section">
+                <div class="about-me-cards">
+                    <div class="card-container-1">
+                        <div class="card-face1">
+                            <div class="card1-content-header">
+                                <img class="card-icon" src="./images/icons8-sun-64.png" alt="sun">
+                                <h3 class="card-title">By Day</h3>  
+                            </div>
+                        </div>
+                        <div class="card-face2">
+                            <div class="card-content-body">
+                                <p class="about-me-by-day">
+                                    I am co-owner/personal trainer at Fit Monkeys INC. My career involves customizing fitness programs for my clients based on their strengths, weaknesses, conditions, injuries, preferences and personality. Through my f one-on-one training/coaching my clients meet their fitness goals in a safe, fun, and effective manner. 
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-container-2">
+                        <div class="card-face1">
+                            <div class="card2-content-header">
+                                <img class="card-icon" src="./images/icons8-crescent-moon-50.png" alt="moon">
+                                <h3 class="card-title">By Night</h3>
+                            </div>
+                        </div>
+                        <div class="card-face2">
+                            <div class="card-content-body">
+                                <p class="about-me-by-night">
+                                    I am aspiring CTO of Fit Monkeys and am learning full stack web development on my spare time . My plan is to improve the front and backend of my company's website. My goal is to improve UX and UI, to provide easily accessible resources to my current clients, and to attract new business. 
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+                <!--This can be a the CV btn flexbox row centered under the other flexbox-->   
+            <div class="cv-btn-container">
+                <a href="./Kelly McConnell CV.pdf" download="Kelly-McConnell-CV" rel="noopener" target="_blank" class="cv-btn">Download Kelly's CV</a>
+            </div>
+                <!--maybe make the grid into a flexbox two separate items that stack on one another and open and separate when you scroll down. colors white green black blue as an accent-->
+                <!--column 1-->
+        </section>
+        <section id="flex-skills-section">
+            <div class="flex-container-1">
+                <div class="flex-h2-container">
+                    <h2>Degrees and Professional Certifications</h2>
+                    <!--Make this a flexbox item with wrapping allowed-->
+                </div>
+                <div class="flex-skills-container">
+                    <div class="flex-skill">B.A. Psychology Summa Cum Laude</div>
+                    <div class="flex-skill">NASM Personal Trainer-CES-SFS-BCS</div>
+                    <div class="flex-skill">JL Body Conditioning Pilates Instructor</div>
+                    <div class="flex-skill">Yoga-six certified yoga instructor</div>
+                </div>
+            </div>
+            <div class="flex-container-2">
+                <div class="flex-h2-container">
+                    <h2>Fitness-Methodologies</h2>
+                    <!--Make this a flexbox item with wrapping allowed-->
+                </div>
+                <div class="flex-skills-container">
+                    <div class="flex-skill">
+                        Resistance-training-weights training- resistance bands- body weight-Pilates/spring
+                    </div>
+                    <div class="flex-skill">
+                        Stretching-Dyanmic-Static-PNF-Pails/Rails-Myofasical Release-Yoga
+                    </div>
+                    <div class="flex-skill">
+                        Progressive Overoload Training
+                    </div>
+                </div>
+            </div>
+            <div class="flex-container-3">
+                <div class="flex-h2-container">
+                    <h2>Professional Skills</h2>
+                    <!--Make this a flexbox item with wrapping allowed-->
+                </div>
+                <div class="flex-skills-container">
+                    <div class="flex-skill">
+                        Problem Solver-Critical Thinker-Decision-making
+                    </div>
+                    <div class="flex-skill">
+                        Empathy-social & self awareness-Communicative
+                    </div>
+                    <div class="flex-skill">
+                        Relationship Management-influence-coach/mentor-conflict management
+                    </div>
+                </div>
+            </div>
+            <div class="flex-container-4">
+                <div class="flex-h2-container">
+                    <h2>Hobbies</h2>
+                    <!--Make this a flexbox item with wrapping allowed-->
+                </div>
+                <div class="flex-skills-container">
+                    <div class="flex-skill">Running</div>
+                    <div class="flex-skill">Hiking</div>
+                    <div class="flex-skill">Gaming</div>
+                    <div class="flex-skill">Digital Art</div>
+                </div>
+            </div>
+            <div class="flex-container-5">
+                <div class="flex-h2-container">
+                    <h2>Web Dev Classes & Certifications</h2>
+                    <!--Make this a flexbox item with wrapping allowed-->
+                </div>
+                <div class="flex-skills-container">
+                    <div class="flex-skill">Udemy Full Stack Web Dev Course</div>
+                </div>
+            </div>
+            <div class="flex-container-6">
+                <div class="flex-h2-container">
+                    <h2>Web Dev Skills</h2>
+                    <!--Make this a flexbox item with wrapping allowed-->
+                </div>
+                <div class="flex-skills-container">
+                    <div class="flex-skill">HTML</div>
+                    <div class="flex-skill">CSS</div>
+                    <div class="flex-skill">Javascript</div>
+                </div>
+            </div>
+                
+                
+            
+        </section>
+        <a id="projects-anchor"><section id="projects"></a>
+            <!--White background green project cards-->
+            <div class="projects-h2-container-container">
+                <div class="projects-h2-container">
+                    <h2 class="visually-hidden">Projects</h2>
+                    <span aria-hidden="true" class="project-span" style="--i:1">P</span>
+                    <span aria-hidden="true" class="project-span"  style="--i:2">r</span>
+                    <span aria-hidden="true"class="project-span" style="--i:3">o</span>
+                    <span aria-hidden="true"class="project-span" style="--i:4">j</span>
+                    <span aria-hidden="true"class="project-span" style="--i:5">e</span>
+                    <span aria-hidden="true"class="project-span" style="--i:6">c</span>
+                    <span aria-hidden="true"class="project-span" style="--i:7">t</span>
+                    <span aria-hidden="true"class="project-span" style="--i:8">s</span>
+                </div>
+            </div>
+            <div class="project-container">
+                <div class="project-card1">
+                    <div class="text-container">
+                        <h2 class="project-card1-h2">Fit Monkeys</h2>
+                        <p class="project-card1-p">Under construction: updating frontend and backend. </p>
+                    </div>
+                    <div class="button-container">
+                        <a href="http://www.fitmonkeys.com" class="project-button">Visit Website <img class="link-arrow" src="./images/icons8-diagonal-arrow-32.png">
+                        </a>
+                    </div>
+                </div>
+                <div class="project-card2">
+                    <div class="text-container">
+                        <h2 class="project-card1-h2">My Profile Website</h2>
+                        <p class="project-card1-p">A continuous work in progress to be updated as I learn.</p>
+                    </div>
+                    <div class="button-container">
+                        <a href="#" class="project-button">Visit Website <img class="link-arrow" src="./images/icons8-diagonal-arrow-32.png">
+                        </a>
+                    </div>
+                    
+                </div>
+                <div class="project-card3">
+                    <div class="text-container">
+                        <h2 class="project-card1-h2">Git Hub</h2>
+                        <p class="project-card1-p">Additional projects I am working on can be found on GitHub.</p>
+                    </div>
+                    <div class="button-container">
+                        <a href="#" class="project-button">Visit Website <img class="link-arrow" src="./images/icons8-diagonal-arrow-32.png">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <a id="contact-anchor"><section id="contact"></a>
+            <!--pink contact me form-->
+            <div class="contact-container">
+                <div class="contact-h2-container">
+                    <h2 class="contact-h2">Contact Me</h2>
+                </div>
+                <form action="https://formsubmit.co/pilatesbykriffel@gmail.com" method="POST">
+                    <div class="contact-form-container">
+                        <div class="contact-form-col1">
+                            <div class="contact-col1-row1">
+                                <div class="name-input">
+                                    <label for="fromName" class="input-labels"></label>
+                                    <input required="" placeholder=" Name" type="text" id="fromName" name="fromName" class="input-style1">
+                                </div>
+                                <div class="email-input">
+                                    <label for="fromEmail" class="input-labels"></label>
+                                    <input required="" placeholder=" Email" type="email" id="fromEmail" name="fromEmail" class="input-style1">
+                                </div>
+                                <div class="subject-input">
+                                    <label for="subject" class="input-labels"></label>
+                                    <input required="" placeholder=" Subject" type="text" id="subject" name="subject" class="input-style1">
+                                </div>
+                            </div>
+                            <div class="contact-col1-row2">
+                                <div class="message-input">
+                                    <label for="message"
+                                    class="input-labels"></label>
+                                    <textarea required="" placeholder="Message" type="text" id="message" name="message" class="input-style2"></textarea>
+                                </div>
+                                <div class="contact-form-col2">
+                                    <button id="sendButton" type="submit" class="send-container-style">
+                                        <span class="send">Send</span>
+                                    </button>
+        
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </form>
+            </div>
+
+        </section>
+        <footer class="footer">
+            <!--black footer-->
+            <div class="footer-social-container">
+                <div class="Facebook">
+                    <a href="#"><img class="facebook-icon" src="images/icons8-facebook-50 (1).png" alt="facebook-icon"></a>
+                </div>
+                <div class="Linkden">
+                    <a href="#"><img class="linkedin-icon" src="images/icons8-linkedin-100.png"></a>
+                </div>
+                <div class="Fit-Monkeys">
+                    <a href="#"><img class="fit-monkeys-logo" alt="fit-monkeys-logo" src="images/PSRNL_TRNG_FT_MNKYS.COM.png"></a>
+                </div>
+                
+            </div>
+            <div class="footer-signature">
+               <h5 class="footer-h5">@ 2023 Kelly McConnell</h5>
+            </div>
+        </footer>
+
+    </body>
+</html>
